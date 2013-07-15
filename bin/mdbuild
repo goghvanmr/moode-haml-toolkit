@@ -11,7 +11,7 @@ class WebBuild < Thor::Group
   source_root Dir.pwd
   def initialize(args=[], options={}, config={})
     super
-    self.destination_root= "../app/assets/www"
+    self.destination_root= "../app/android/assets/www"
   end
 
   def compile_html
